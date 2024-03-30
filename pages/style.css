@@ -1,0 +1,156 @@
+/* Mengaktifkan perilaku scroll halus */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Mengatur font default dan warna teks untuk semua elemen */
+* {
+	font-family: 'Bauhaus 93', sans-serif;
+	color: #ff0000; /* Merah */
+}
+
+/* Mengatur properti dasar untuk body */
+body {
+	margin: 0; /* Nol margin */
+	padding: 0; /* Nol padding */
+	background-color: black; /* Warna latar belakang hitam */
+}
+
+/* Mengatur margin untuk kontainer */
+.container {
+	margin-left: 75px; /* Margin kiri 75px */
+	margin-right: 75px; /* Margin kanan 75px */
+}
+
+/* Mengatur tata letak, warna latar belakang, dan posisi tetap untuk navigasi */
+nav {
+	width: 100%; /* Lebar 100% */
+	background-color: #000000; /* Warna latar belakang hitam */
+	position: fixed; /* Posisi tetap */
+}
+
+/* Mengatur tata letak daftar navigasi horizontal */
+nav ul li {
+	list-style: none; /* Hapus tanda daftar */
+	display: inline-block; /* Menampilkan dalam baris yang sama */
+}
+
+/* Mengatur tautan di dalam navigasi */
+nav ul li a {
+	text-decoration: none; /* Hapus dekorasi tautan */
+	margin: 5px; /* Margin 5px */
+	padding: 5px; /* Padding 5px */
+	color: rgb(255, 0, 0); /* Warna teks merah */
+}
+
+/* Mengatur tata letak dan warna teks untuk konten utama */
+section {
+	padding-top: 75px; /* Padding atas 75px */
+}
+
+/* Mengatur tata letak kanan dan float kanan untuk elemen */
+.align-right {
+	text-align: right; /* Rata kanan */
+	float: right; /* Float kanan */
+	right: 0; /* Jarak ke kanan 0 */
+}
+
+/* Mengatur properti untuk gambar profil */
+.profile-img {
+	width: 200px; /* Lebar 200px */
+	height: 200px; /* Tinggi 200px */
+	border-radius: 50%; /* Border radius 50% */
+	margin-left: auto; /* Margin kiri otomatis */
+	margin-right: auto; /* Margin kanan otomatis */
+	display: block; /* Tampilkan sebagai blok */
+}
+
+/* Mengatur teks tebal */
+.text-bold {
+	font-weight: bold; /* Teks tebal */
+}
+
+/* Mengatur tata letak tengah untuk teks */
+.text-center {
+	text-align: center; /* Rata tengah */
+}
+
+/* Mengatur tata letak dan gaya teks untuk paragraf bio */
+.bio-p {
+	text-align: center; /* Rata tengah */
+	width: 50%; /* Lebar 50% */
+	margin-right: auto; /* Margin kanan otomatis */
+	margin-left: auto; /* Margin kiri otomatis */
+	font-family: 'Bradley Hand ITC', cursive; /* Font */
+}
+
+/* Mengatur gaya tombol */
+.btn {
+	background-color: #d83250; /* Warna latar belakang */
+	border-radius: 20px; /* Border radius 20px */
+	padding: 20px; /* Padding 20px */
+	text-decoration: none; /* Hapus dekorasi tautan */
+	color: black; /* Warna teks hitam */
+	font-weight: bold; /* Teks tebal */
+	margin-left: auto; /* Margin kiri otomatis */
+	margin-right: auto; /* Margin kanan otomatis */
+	display: block; /* Tampilkan sebagai blok */
+	width: 100px; /* Lebar 100px */
+	text-align: center; /* Rata tengah */
+	box-shadow: 0 0 60px rgba(255, 0, 0, 0.5); /* Bayangan */
+}
+
+/* Mengatur properti untuk progress bar */
+.progress-bar {
+	background-color: #d83250; /* Warna latar belakang */
+	height: 16px; /* Tinggi 16px */
+	border-radius: 20px; /* Border radius 20px */
+}
+
+/* Mengatur margin atas 25px */
+.margin-top-25 {
+	margin-top: 25px; /* Margin atas 25px */
+}
+
+/* Mengatur properti untuk kartu */
+.card {
+	border: 1px solid #ffffff1a; /* Border solid putih */
+	border-radius: 20px; /* Border radius 20px */
+	display: inline-block; /* Tampilkan sebagai blok */
+	width: 20%; /* Lebar 20% */
+	margin-right: 15px; /* Margin kanan 15px */
+	margin-left: 15px; /* Margin kiri 15px */
+	padding: 50px; /* Padding 50px */
+}
+
+/* Mengatur properti untuk gambar di dalam kartu */
+.card-img {
+	width: 100px; /* Lebar 100px */
+	height: 100px; /* Tinggi 100px */
+	display: block; /* Tampilkan sebagai blok */
+	margin-left: auto; /* Margin kiri otomatis */
+	margin-right: auto; /* Margin kanan otomatis */
+}
+
+/* Mengatur properti untuk footer */
+footer {
+	border-top: 5px solid #ff0000; /* Garis putih dengan ketebalan 5px */
+	width: 100%; /* Lebar 100% */
+	margin-top: 50px; /* Margin atas 50px */
+	padding-top: 20px; /* Padding atas 20px */
+	padding-bottom: 20px; /* Padding bawah 20px */
+}
+
+/* Mengatur tata letak kontainer video */
+.video-container {
+	display: flex; /* Tampilkan sebagai flex */
+	align-items: center; /* Posisi vertikal tengah */
+	justify-content: center; /* Posisi horizontal tengah */
+	margin-top: 75px; /* Margin atas 75px */
+}
+
+/* Mengatur properti untuk iframe video */
+.video-container iframe {
+	width: 560px; /* Lebar 560px */
+	height: 315px; /* Tinggi 315px */
+}

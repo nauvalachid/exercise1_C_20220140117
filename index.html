@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>#GGMU</title>
+    <!-- Mengambil library SweetAlert2 versi 11 untuk notifikasi -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- Container untuk kartu (card) -->
+    <div class="card-container"></div>
+
+    <!-- Kartu (card) utama -->
+    <div class="card">
+        <!-- Gambar stadion -->
+        <img src="./assets/download.jpeg" alt="">
+        <!-- Judul -->
+        <h1>Old Trafford Stadium</h1>
+        <!-- Paragraf informasi tentang stadion -->
+        <p>
+            Old Trafford adalah sebuah stadion sepak bola yang berlokasi di Old Trafford, Greater Manchester, Inggris, dan merupakan markas klub Manchester United.
+            Dengan kapasitas sekitar 76.000 kursi, stadion ini merupakan stadion terbesar ketiga dan stadion sepak bola terbesar kedua di Inggris setelah Stadion Wembley, serta stadion kesembilan terbesar di Eropa.
+            Stadion ini terletak sekitar 05 mil (8.000 m) dari Lapangan Kriket Old Trafford dan stasiun trem terdekat.
+        </p>
+        <!-- Container untuk menampilkan tanggal -->
+        <div class="tgl">
+            <p id="waktu"></p>
+        </div>
+    </div>
+
+    <!-- Formulir login -->
+    <div class="login-form">
+        <button class="btn" onclick="openLoginPage()">⇛ GO INTO HISTORY ⇚</button>
+    </div>
+
+    <!-- Library SweetAlert2 versi 10 -->
+    <script src="./script/main.js"></script>
+</body>
+
+</html>

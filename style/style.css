@@ -1,0 +1,105 @@
+/* Reset CSS untuk mengatur margin dan padding menjadi 0 serta menggunakan box-sizing border-box untuk semua elemen */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  /* Penataan untuk elemen body: menggunakan flexbox untuk memusatkan konten, menetapkan warna latar belakang hitam, dan warna teks merah.
+     Latar belakang menggunakan gradient dengan animasi. */
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: red;
+    background: linear-gradient(45deg, #c17777, #000000, #c17777);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 10s infinite;
+  }
+  
+  /* Animasi latar belakang */
+  @keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+      background-size: 200% 200%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Penataan untuk elemen card: lebar tetap, box-sizing diatur ke border-box, sudut dibulatkan, overflow dihilangkan, efek bayangan ditambahkan, dan padding diberikan */
+  .card {
+    width: 350px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 60px rgba(255, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px; 
+  }
+  
+  /* Penataan untuk gambar di dalam card: lebar diatur 100% dari parent dan ditampilkan sebagai blok */
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Penataan untuk judul h1 di dalam card: menggunakan jenis huruf tertentu, menetapkan ukuran huruf, dan memberikan margin di bagian bawah */
+  .card h1 {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px; 
+  }
+  
+  /* Penataan untuk paragraf di dalam card: menggunakan jenis huruf tertentu, menetapkan ukuran huruf, dan memberikan margin di bagian bawah */
+  .card p {
+    font-family: 'Bradley Hand ITC', cursive;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  /* Penataan untuk formulir login: menggunakan flexbox, memberikan padding dan margin, serta menetapkan jenis huruf dan ukuran huruf */
+  .login-form {
+    display: flex;
+    padding: 10%;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Bradley Hand ITC', cursive;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Penataan untuk kotak input: mengatur warna latar belakang, warna teks, border, dan padding */
+  .login-form input {
+    background-color: rgb(0, 0, 0, 0); /* Mengatur warna latar belakang kotak input menjadi transparan */
+    color: #ff0000; /* Mengatur warna teks pada kotak input menjadi merah */
+    border: none; /* Menghilangkan border pada kotak input */
+    border-bottom: 2px dashed red; /* Menambahkan border bawah dengan ketebalan 1px dan warna merah */
+    margin-bottom: 10px; /* Memberikan margin bawah pada kotak input */
+    padding: 5px; /* Memberikan padding pada kotak input */
+    font-family: 'Bradley Hand ITC', cursive;
+    font-size: 15px;
+  }
+  
+  /* Penataan untuk tombol login: mengatur warna latar belakang, warna teks, border, dan padding */
+  .login-form button {
+    background-color: rgb(0, 0, 0, 0); /* Mengatur warna latar belakang tombol login menjadi transparan */
+    color: #ff0000; /* Mengatur warna teks pada tombol login menjadi merah */
+    border: none; /* Menghilangkan border pada tombol login */
+    padding: 10px 20px; /* Memberikan padding pada tombol login */
+    cursor: pointer; /* Mengubah kursor saat di atas tombol login */
+    font-family: 'Bradley Hand ITC', cursive;
+    font-size: 20px;
+  }
+  
+  /* Penataan saat tombol login dihover: mengubah warna latar belakang */
+  .login-form button:hover {
+    background-color: #5b0b0b; /* Mengubah warna latar belakang tombol login saat dihover */
+  }
+  
